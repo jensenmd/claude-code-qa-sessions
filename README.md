@@ -52,12 +52,17 @@ The workflow demonstrated here:
 ## Portfolio
 
 | Project | Type | What It Demonstrates |
-|---|---|---|
-| [claude-code-qa-sessions](https://github.com/jensenmd/claude-code-qa-sessions) | Claude Code · Existing Repos | Agentic QA improvement workflow |
+| --- | --- | --- |
+| **claude-code-qa-sessions** (this repo) | Claude Code · Existing Repos | Agentic QA improvement workflow |
 | [ai-qa-framework](https://github.com/jensenmd/ai-qa-framework) | AI in live workflow | AI-assisted test generation, human-in-the-loop validation |
 | [restful-booker-qa](https://github.com/jensenmd/restful-booker-qa) | Full-stack QA | API + UI automation, layered test strategy |
 | [qa-automation-showcase](https://github.com/jensenmd/qa-automation-showcase) | API + Data | REST API testing, data validation, CI/CD |
 | [pharmacy-spend-etl-qa](https://github.com/jensenmd/pharmacy-spend-etl-qa) | Data / ETL | SQL-driven ETL pipeline validation |
+| [mapmyrun-quality-investigation](https://github.com/jensenmd/mapmyrun-quality-investigation) | Mobile / Field QA | Black-box GPS and workout-integrity investigation with evidence-bounded conclusions |
+
+---
+
+## Author
 
 ---
 
