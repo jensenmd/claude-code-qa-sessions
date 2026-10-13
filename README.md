@@ -1,10 +1,8 @@
-![claude-code-qa-sessions portfolio project card](claude-code-qa-sessions-project-card.png)
-
 # claude-code-qa-sessions
 
-Documenting Claude Code applied to existing QA repositories — coverage gap analysis, human-in-the-loop validation, and agentic implementation.
+![claude-code-qa-sessions portfolio project card](claude-code-qa-sessions-project-card.png)
 
-This is not a tutorial clone. These are real sessions against real projects, documented as a replicable workflow for any QA engineer who wants to understand how to integrate Claude Code into their existing practice.
+A record of how I use Claude Code to investigate existing QA repositories and make targeted improvements. Each session shows what the agent found, what I accepted or challenged, and what changed after review.
 
 🔗 [LinkedIn](https://www.linkedin.com/in/michaeljensen-qa/) | 🐙 [GitHub Profile](https://github.com/jensenmd) | 📧 [jensen.md@gmail.com](mailto:jensen.md@gmail.com)
 
@@ -51,21 +49,19 @@ The workflow demonstrated here:
 
 ## QA Portfolio Quick Reference
 
-This project is part of a broader QA portfolio demonstrating complementary quality-engineering skills.
+See [Michael D. Jensen’s QA portfolio](https://github.com/jensenmd) for the complete project overview.
 
-| Project | Focus |
-|---|---|
-| [android-appium-wdio-poc](https://github.com/jensenmd/android-appium-wdio-poc) | Native Android UI automation proof of concept using Appium, WebdriverIO, TypeScript, and UiAutomator2 |
-| [mapmyrun-quality-investigation](https://github.com/jensenmd/mapmyrun-quality-investigation) | Black-box mobile and GPS quality investigation using field evidence and bounded conclusions |
-| [restful-booker-qa](https://github.com/jensenmd/restful-booker-qa) | Layered API and UI automation using Postman, Newman, Playwright, and GitHub Actions |
-| [pharmacy-spend-etl-qa](https://github.com/jensenmd/pharmacy-spend-etl-qa) | ETL pipeline and SQL-driven data-integrity validation modeled after healthcare analytics work |
-| [qa-automation-showcase](https://github.com/jensenmd/qa-automation-showcase) | REST API testing, data validation, and CI/CD-integrated automation |
-| [ai-qa-framework](https://github.com/jensenmd/ai-qa-framework) | Human-reviewed AI-assisted test generation with structured cases and pytest execution |
-| [claude-code-qa-sessions](https://github.com/jensenmd/claude-code-qa-sessions) **(this repository)** | Agentic analysis of existing QA repositories with human review and targeted implementation |
-| [agentqa-orchestrator](https://github.com/jensenmd/agentqa-orchestrator) | Structured agentic code auditing using Python, Pydantic, Gemini, and JSON |
----
-
-## Author
+| Project | Purpose and Approach |
+| --- | --- |
+| [fhir-api-qa](https://github.com/jensenmd/fhir-api-qa) | Checks whether a healthcare API preserves Patient data through its lifecycle, with isolated FHIR tests and useful CI failure evidence. |
+| [pharmacy-spend-etl-qa](https://github.com/jensenmd/pharmacy-spend-etl-qa) | Checks that pharmacy spend data survives the trip from source files to analytics tables, using SQL reconciliation on a synthetic pipeline. |
+| [restful-booker-qa](https://github.com/jensenmd/restful-booker-qa) | Tests booking behavior at both API and browser layers, combining Postman/Newman and Playwright for repeatable regression feedback. |
+| [qa-automation-showcase](https://github.com/jensenmd/qa-automation-showcase) | Examines API behavior and the quality of returned data together, using pytest, Postman, and Python validation. |
+| [android-appium-wdio-poc](https://github.com/jensenmd/android-appium-wdio-poc) | Builds a focused baseline for Android UI checks, exercising Settings navigation on a local emulator with Appium and WebdriverIO. |
+| [mapmyrun-quality-investigation](https://github.com/jensenmd/mapmyrun-quality-investigation) | Investigates how workout tracking affects data integrity and user trust, using mobile field experiments and separating observations from explanations. |
+| [ai-qa-framework](https://github.com/jensenmd/ai-qa-framework) | Explores how AI can help develop useful API test coverage while keeping a QA engineer responsible for review and pytest execution. |
+| [claude-code-qa-sessions](https://github.com/jensenmd/claude-code-qa-sessions) **(this repository)** | Shows how human QA judgment guides Claude Code from finding coverage gaps to making targeted, reviewed test improvements. |
+| [agentqa-orchestrator](https://github.com/jensenmd/agentqa-orchestrator) | Explores inspectable AI code reviews, using Gemini and Pydantic-defined response schemas to produce structured JSON audit artifacts. |
 
 ---
 
